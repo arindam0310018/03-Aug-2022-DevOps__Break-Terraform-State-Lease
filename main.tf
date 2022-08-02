@@ -5,7 +5,7 @@ terraform {
     resource_group_name  = "tfpipeline-rg"
     storage_account_name = "tfpipelinesa"
     container_name       = "terraform"
-    key                  = "PR/createprworkitem.tfstate"
+    key                  = "TF-LEASE/BreakLease.tfstate"
   }
   required_providers {
     azurerm = {

@@ -23,7 +23,7 @@ parameters:
   default: 
 
 - name: STORAGEACCOUNTCONTAINERNAME
-  displayName: Please Provide the Storage Account Name:-
+  displayName: Please Provide the Storage Account Container Name:-
   type: object
   default:
 
